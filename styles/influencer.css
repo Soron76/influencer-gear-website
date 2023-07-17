@@ -122,7 +122,8 @@ main {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    gap: 25px;
+    /* border: 2px dotted seagreen; */
 }
 
 .grid {
@@ -155,7 +156,8 @@ main {
     font-size: 1.5rem;
     font-weight: 400;
 }
-.grid-description{
+
+.grid-description {
     color: var(--gray-50, #787885);
     font-family: Inter;
     font-size: 1rem;
@@ -164,4 +166,56 @@ main {
     margin-top: 10px;
 
 }
-  
+
+h5 {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: end;
+}
+
+/*  features section */
+.feature-container {
+    /* border: 2px solid seagreen; */
+    margin-top: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 100px;
+}
+
+.feature-title {
+    color: #0A0826;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* footer styles */
+footer {
+    background: #0A0826;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.foot-content {
+    color: #D9DBE1;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.foot-des {
+    color: #D9DBE1;
+    font-size: .8rem;
+    font-weight: 700;
+}
+.icons{
+    margin-left: 16px;
+}
