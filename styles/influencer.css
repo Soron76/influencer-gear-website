@@ -4,4 +4,90 @@
 /* shared styles */
 * {
     font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+.common-p {
+    /* width: 500px; */
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.btn-primary {
+    border: 0px;
+    border-radius: 2.75rem;
+    background: #E02C6D;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 24px;
+    margin-top: 26px;
+    
+}
+
+
+/* header section */
+header {
+    background: #fff;
+    /* padding: 60px 120px; */
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.section-title {
+    width: 580px;
+    color: #3A3A3A;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 120px;
+    border: 2px solid skyblue;
+
+
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    color: #3A3A3A;
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+nav li a {
+    text-decoration: none;
+
+}
+
+.banner {
+    padding: 40px 50px 40px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid salmon;
+}
+
+.banner-title {
+    /* width: 582px; */
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+.main-pic{
+    width: 450px;
+    /* margin-left: 100px; */
 }
