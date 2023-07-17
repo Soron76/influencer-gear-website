@@ -50,7 +50,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 60px 120px;
-    border: 2px solid skyblue;
+    /* border: 2px solid skyblue; */
 
 
 }
@@ -78,7 +78,7 @@ nav li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
 }
 
 .banner-title {
@@ -90,4 +90,18 @@ nav li a {
 .main-pic{
     width: 450px;
     /* margin-left: 100px; */
+}
+/* main section */
+main{
+    max-width: 1140px;
+}
+.sponsor{
+    border: 2px solid seagreen;
+    /* width: 1110px; */
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px 100px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
